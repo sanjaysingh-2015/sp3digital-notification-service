@@ -18,7 +18,7 @@ const options = {
     servers: [
       {
         url: BASE_URL+'/api/v1',
-        description: 'Development Server',
+        description: NODE_ENV,
       },
     ],
   },
